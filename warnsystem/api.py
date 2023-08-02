@@ -55,7 +55,7 @@ class FakeRole:
     """
 
     position = 0
-    colour = discord.Embed.Empty
+    colour = discord.Colour.default
 
 
 class UnavailableMember(discord.abc.User, discord.abc.Messageable):
